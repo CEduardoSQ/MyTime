@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Agenda"
+            android:icon="@drawable/ic_view_agenda_black"
+            android:title="@string/Agenda" />
+        <item
+            android:id="@+id/Class"
+            android:icon="@drawable/ic_class_black"
+            android:title="@string/Class" />
+        <item
+            android:id="@+id/Tasks"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="@string/Tasks" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/ic_settings_black"
+            android:title="@string/Settings" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/ic_info_black"
+            android:title="@string/About" />
+        <item
+            android:id="@+id/Bug"
+            android:icon="@drawable/ic_bug_report_black"
+            android:title="@string/Bug" />
+    </group>
+
+</menu>
